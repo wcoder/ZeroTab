@@ -1,0 +1,30 @@
+{
+  "name": "zerotab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcoder/ZeroTab.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "newtab"
+  ],
+  "author": "Yauheni Pakala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wcoder/ZeroTab/issues"
+  },
+  "homepage": "https://github.com/wcoder/ZeroTab#readme",
+  "dependencies": {
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify-es": "^1.0.4"
+  }
+}

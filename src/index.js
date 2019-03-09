@@ -1,7 +1,7 @@
 
-let rootView = document.getElementById('root');
+const rootView = document.getElementById('root');
 
-let restore_action = options => {
+const restore_action = options => {
     rootView.style.backgroundColor = options.backgroundColor;
 }
 

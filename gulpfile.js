@@ -1,7 +1,7 @@
-let gulp = require('gulp');
-var del = require('del');
-let uglify = require('gulp-uglify-es').default;
-let htmlmin = require('gulp-htmlmin');
+const gulp = require('gulp');
+const del = require('del');
+const uglify = require('gulp-uglify-es').default;
+const htmlmin = require('gulp-htmlmin');
 
 gulp.task('default', () => {
     // place code for your default task here

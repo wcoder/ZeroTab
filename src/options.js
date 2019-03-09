@@ -1,9 +1,9 @@
 
 // var saveButton = document.getElementById('save');
-let backgroundColorOption = document.getElementById('background_color');
+const backgroundColorOption = document.getElementById('background_color');
 // var statusView = document.getElementById('status');
 
-let save_options = () => {
+const save_options = () => {
     // saveButton.disabled = true;
     chrome.storage.sync.set({
         backgroundColor: backgroundColorOption.value
@@ -16,7 +16,7 @@ let save_options = () => {
     });
 }
 
-let restore_action = options => {
+const restore_action = options => {
     backgroundColorOption.value = options.backgroundColor;
 }
 

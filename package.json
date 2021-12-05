@@ -21,10 +21,10 @@
     "url": "https://github.com/wcoder/ZeroTab/issues"
   },
   "homepage": "https://github.com/wcoder/ZeroTab#readme",
-  "dependencies": {
-    "del": "^4.0.0",
-    "gulp": "^4.0.0",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-uglify-es": "^1.0.4"
+    "gulp-uglify-es": "^3.0.0"
   }
 }

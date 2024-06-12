@@ -23,7 +23,7 @@
   "homepage": "https://github.com/wcoder/ZeroTab#readme",
   "devDependencies": {
     "del": "^6.0.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-uglify-es": "^3.0.0"
   }
